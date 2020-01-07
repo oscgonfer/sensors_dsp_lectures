@@ -1,6 +1,6 @@
 # sensors_workshop_iaac
 
-Sensor and DSP workshop notes for MRAC.
+Sensor and DSP workshop notes for [MRAC (Master in Robotics and Advanced Construction)](https://iaac.net/educational-programmes/masters-programmes/master-in-robotics-and-advanced-construction-mrac/).
 
 Get started following the instructions below:
 
@@ -10,11 +10,7 @@ Get started following the instructions below:
 
 ![](https://i.imgur.com/eZL8BXw.png)
 
-:::info
-You can find a pre-compiled **distribution** here:
-
-https://www.anaconda.com/distribution/
-:::
+You can find a pre-compiled **distribution** here: https://www.anaconda.com/distribution/
 
 **2** This won't be a **git and code workshop**, so we have two options here for code-sharing. If you have a terminal application with which you are familiar: bash, oh-my-zsh, powershell, gitbash...  follow instructions 2.a..., and then go to 3 (skip 2.b). If you are not familiar with the terminal and git, skip 2.a and jump to 2.b and follow up to 3:
 
@@ -71,3 +67,10 @@ jupyter notebook
 - Install an environment from an environment yml file: https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#creating-an-environment-from-an-environment-yml-file
 - Notes on Convolution from DSP Guide: "The Scientist and Engineer's Guide to Digital Signal Processing, copyright ©1997-1998 by Steven W. Smith. For more information visit the book's website at: www.DSPguide.com"
 - Scipy documentation: https://docs.scipy.org/doc/scipy/reference/#
+
+### Image processing specifics
+
+- 
+- OpenCV: https://github.com/opencv/opencv
+- Open Model Zoo repository: https://github.com/opencv/open_model_zoo/
+- https://github.com/intel/ros2_openvino_toolkit
