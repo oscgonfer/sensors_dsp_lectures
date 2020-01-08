@@ -85,3 +85,5 @@ dependencies:
     - terminado==0.8.3
     - wcwidth==0.1.8
     - webencodings==0.5.1
+prefix: /Users/macoscar/anaconda3/envs/sensor_dsp
+

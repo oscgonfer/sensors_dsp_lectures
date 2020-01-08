@@ -60,17 +60,8 @@ jupyter notebook
 
 ![](https://i.imgur.com/YkBY9LK.png)
 
-## References
+## Session structure
 
-- Python beginner's guide: https://wiki.python.org/moin/BeginnersGuide
-- Conda documentation: https://docs.conda.io/projects/conda/en/latest/index.html
-- Install an environment from an environment yml file: https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#creating-an-environment-from-an-environment-yml-file
-- Notes on Convolution from DSP Guide: "The Scientist and Engineer's Guide to Digital Signal Processing, copyright ©1997-1998 by Steven W. Smith. For more information visit the book's website at: www.DSPguide.com"
-- Scipy documentation: https://docs.scipy.org/doc/scipy/reference/#
-
-### Image processing specifics
-
-- 
-- OpenCV: https://github.com/opencv/opencv
-- Open Model Zoo repository: https://github.com/opencv/open_model_zoo/
-- https://github.com/intel/ros2_openvino_toolkit
+1. Understanding the basics of DSP and signal processing in one 1d
+2. Sampling, streaming and logging data
+3. Handling data in 2-d
