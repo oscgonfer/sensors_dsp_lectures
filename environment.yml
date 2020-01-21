@@ -1,4 +1,4 @@
-name: sensor_dsp_test
+name: sensor_dsp
 channels:
   - conda-forge
   - defaults
