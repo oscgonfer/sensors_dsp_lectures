@@ -18,9 +18,6 @@ dependencies:
   - jupyter_contrib_core=0.3.*
   - jupyter_core=4.6.*
   - jupyter_nbextensions_configurator=0.4.*
-  - libcxx=4.0.*
-  - libcxxabi=4.0.*
-  - libedit=3.1.*
   - libffi=3.2.*
   - libsodium=1.0.*
   - markupsafe=1.1.*
@@ -28,7 +25,6 @@ dependencies:
   - more-itertools=8.0.*
   - nbconvert=5.6.*
   - nbformat=4.4.*
-  - ncurses=6.*
   - notebook=6.0.*
   - openssl=1.1.*
   - pandoc=2.2.3.*
@@ -42,7 +38,6 @@ dependencies:
   - pyrsistent=0.15.*
   - python=3.7.*
   - python-dateutil=2.8.*
-  - readline=7.*
   - setuptools=42.0.*
   - six=1.13.*
   - sqlite=3.30.*
