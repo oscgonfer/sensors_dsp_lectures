@@ -5,13 +5,13 @@
  - Existing librairies
  - Suited for Arduino or Raspberry Pi
 
-## HTC Vive Tracker + Sensors	
-
-## Action Camera (Mobius)
-
-## RGBD camera	(Kinect v1)
-
 ## RGBD camera	(INTEL REALSENSE D435i)
+
+- Supply voltage: 4.5-5.25 V
+- Supply current: 300 mA
+
+- [Reference](https://www.intelrealsense.com/depth-camera-d435i/)
+- [3D scanning using a RPI4 and Intel Realsense camera](https://hackaday.com/2020/03/31/handheld-3d-scanning-using-raspberry-pi-4-and-intel-realsense-camera/)
 
 ## Thermal Camera	(Flir one)
 
@@ -38,3 +38,17 @@
 ## Contact Temp Sensor	(DS18B20 Waterproof Contact temperature sensor)
 
 ## Touch Sensor (Velostat Adafruit 1361)
+
+---
+
+## HTC Vive Tracker
+
+- Reference: [https://www.vive.com/us/accessory/vive-tracker/](https://www.vive.com/us/accessory/vive-tracker/)
+- [Open-source alternative](https://hackaday.io/project/160182-hivetracker): Tiny, low-cost and scalable device for sub-millimetric 3D positioning
+
+## Action Camera (Mobius)
+
+- Reference: http://www.mobius-actioncam.com/mobius/wp-content/uploads/2015/01/Mobius-Manual-23jan15a.pdf
+
+## RGBD camera (Kinect v1)
+
