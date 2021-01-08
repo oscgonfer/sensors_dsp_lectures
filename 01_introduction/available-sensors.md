@@ -1,25 +1,48 @@
 # Available sensors and their characteristics
 
- - Analog or digital
- - Voltage levels
- - Existing librairies
- - Suited for Arduino or Raspberry Pi
+- Is it an analog or a digital sensor?
+- Suited for Arduino or Raspberry Pi?
+- Voltage levels, supply current?
+- Existing librairies?
 
-## RGBD camera	(INTEL REALSENSE D435i)
+---
 
-- Supply voltage: 4.5-5.25 V
-- Supply current: 300 mA
+## RGBD camera (INTEL REALSENSE D435i)
 
-- [Reference](https://www.intelrealsense.com/depth-camera-d435i/)
-- [3D scanning using a RPI4 and Intel Realsense camera](https://hackaday.com/2020/03/31/handheld-3d-scanning-using-raspberry-pi-4-and-intel-realsense-camera/)
+- Digital sensor ([reference](https://www.intelrealsense.com/depth-camera-d435i/))
+- Suited for Raspberry Pi: [installation guide](https://github.com/IntelRealSense/librealsense/blob/master/doc/installation_raspbian.md) + example ([3D scanning using a RPI4 and Intel Realsense camera](https://hackaday.com/2020/03/31/handheld-3d-scanning-using-raspberry-pi-4-and-intel-realsense-camera/))
+- Operating voltage: 4.5-5.25 V
+- Current: 300 mA
 
-## Thermal Camera	(Flir one)
+## Thermal camera	(Flir one)
 
-## Tracking Camera board	(Pixy2 Smart Vision Sensor Compatible arduino and Rasbery Pi)
+- Digital sensor ([reference](https://www.flir.co.uk/flir-one/) + [datasheet](https://www.flirmedia.com/MMC/THG/Brochures/IND_036/IND_036_EN.pdf))
+- Suited for Rasberry Pi: [installation guide](https://github.com/groupgets/LeptonModule)
+- Operating voltage: 5V
 
-## Orientation Sensor	(BNO055 Absolute Orientation Sensor)
+## Tracking camera board	(Pixy2 Smart Vision Sensor)
 
-## GPS module + Antena (AdaFruit 746 GPS Ultimate Module + Adafruit GPS Antenna)
+- Digital sensor ([reference](https://pixycam.com/pixy2/) + [documentation](https://docs.pixycam.com/wiki/doku.php?id=wiki:v2:start))
+- Suited for Arduino and Raspberry Pi
+- Operating voltage: 5V ([doc](https://docs.pixycam.com/wiki/doku.php?id=wiki:v1:powering_pixy&s[]=power))
+- Current draw: up to 1.5A
+- Inspirational [projects](https://pixycam.com/projects/)
+
+## Orientation sensor	(BNO055 Absolute Orientation Sensor)
+
+- Analog sensor ([reference](https://learn.adafruit.com/adafruit-bno055-absolute-orientation-sensor/overview) + [pinouts](https://learn.adafruit.com/adafruit-bno055-absolute-orientation-sensor/pinouts) + [datasheet](https://cdn-shop.adafruit.com/datasheets/BST_BNO055_DS000_12.pdf))
+- Suited for Arduino
+- Operating voltage: 3.3-5V
+- [Library](https://github.com/adafruit/Adafruit_BNO055)
+
+## GPS module + antena (AdaFruit 746 GPS Ultimate Module)
+
+- Analog sensor ([reference](https://learn.adafruit.com/adafruit-ultimate-gps))
+- Suited for Arduino
+- Operating voltage: 5V
+- Current draw: 20mA
+- [Library](https://github.com/adafruit/Adafruit_GPS)
+
 
 ## Ultrasonic Sensor	(Basic)
 
