@@ -76,27 +76,55 @@
 - Suited for Arduino ([manufacturer's guide](https://www.laserrangesensor.com/laser-distance-sensor/short-range-laser-distance-sensor/short-distance-measurement-sensor.html))
 - Operating voltage: 2.0-3.3V
 
-## Pressure Sensor
-### IFM with I/O Link
+## Pressure Sensor (IFM with I/O Link)
 
+- [Reference](https://www.ifm.com/us/en/product/PN7094)?
+  
 ## Flow Meter	(IFM with I/O Link)
+
+- [Reference](https://www.ifm.com/us/en/product/SM8621)?
 
 ## Arduino Basic Sensors kit
 
-## Air Temp & Hum Sensor (SHT31-D Air Temperature & Humidity Sensor)
+- [Reference](https://store.arduino.cc/sensor-kit-base)
+- Content
+  - Light sensor
+  - Sound sensor
+  - Air pressure sensor
+  - Temperature sensor
+  - Accelerometer
 
-## Contact Temp Sensor	(DS18B20 Waterproof Contact temperature sensor)
+## Air temperature and humidity sensor
+### SHT31-D
 
-## Touch Sensor (Velostat Adafruit 1361)
+- Analog sensor ([reference](https://learn.adafruit.com/adafruit-sht31-d-temperature-and-humidity-sensor-breakout) + [datasheet](https://cdn-shop.adafruit.com/product-files/2857/Sensirion_Humidity_SHT3x_Datasheet_digital-767294.pdf))
+- Suited for Arduino
+- Operating voltage: 2.4-5.5V
+- Operating current: 1.5mA
+- [Arduino example](https://learn.adafruit.com/adafruit-sht31-d-temperature-and-humidity-sensor-breakout/wiring-and-test)
 
----
+## Contact temperature sensor
+
+### DS18B20
+
+- Digital ([datasheet](https://www.makerguides.com/wp-content/uploads/2020/08/DS18B20-Datasheet.pdf))
+- Suited for Arduino
+- Operating voltage: 3.3-5V
+- Operating current: 1.5mA
+- Arduino [example and guide](https://www.makerguides.com/ds18b20-arduino-tutorial/)
+
+## Touch Sensor
+### Velostat Adafruit 1361
+
+- pressure-sensitive material that can be used as a pressure sensor as it has less resistance when folded ([reference](https://www.adafruit.com/product/1361))
+- Used as an analog sensor
 
 ## HTC Vive Tracker
 
-- Reference: [https://www.vive.com/us/accessory/vive-tracker/](https://www.vive.com/us/accessory/vive-tracker/)
+- [Reference](https://www.vive.com/us/accessory/vive-tracker/)
 - [Open-source alternative](https://hackaday.io/project/160182-hivetracker): Tiny, low-cost and scalable device for sub-millimetric 3D positioning
 
 ## Action Camera (Mobius)
 
-- Reference: http://www.mobius-actioncam.com/mobius/wp-content/uploads/2015/01/Mobius-Manual-23jan15a.pdf
+- [Reference](http://www.mobius-actioncam.com/mobius/wp-content/uploads/2015/01/Mobius-Manual-23jan15a.pdf)
 
