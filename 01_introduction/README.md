@@ -9,6 +9,8 @@ Heavily inspired by: https://fablabbcn-projects.gitlab.io/learning/fabacademy-lo
 
 - [Debouncing a switch](examples/debouncing.ino)
 - [Analog read with a voltage divider](examples/analog_read.ino)
+- [Analog read](examples/thermistor.cpp)
+- [Pulse In with ultrasonic sensor](examples/ultrasonic_sensor.cpp)
 
 ## Additional references
 
