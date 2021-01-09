@@ -11,9 +11,14 @@ The course is structured in four days, each of which have 3h of theory and pract
 
 In each folder, you can find the presentation slides, as well as examples seen during the classes and more material and references.
 
+## References
+
+- [Fabacademy Inputs Class](https://fablabbcn-projects.gitlab.io/learning/fabacademy-local-docs/material/extras/week09/inputdevices/)
+- [@vico](https://github.com/vicobarberan) [Sensors list](https://hackmd.io/xAjS5n_ASTOmX9EhacRRhw?view)
+
 ## Contributing 
 
-These sessions are meant to evolve, be reused and improved by faculty and students. PR, issues and comments are welcome.
+These sessions are meant to evolve, be reused and improved by faculty and students. PR, issues and comments are always welcome.
 
 
 

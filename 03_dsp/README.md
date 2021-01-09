@@ -1,10 +1,8 @@
-# sensors_workshop_iaac
+# Digital Signal Processing (DSP) Introdicution
 
-Sensor and DSP workshop notes for [MRAC (Master in Robotics and Advanced Construction)](https://iaac.net/educational-programmes/masters-programmes/master-in-robotics-and-advanced-construction-mrac/).
+## Getting started
 
 Get started following the instructions below:
-
-## Prerequisites
 
 **1** Have Anaconda installed with **Python 3.7**:
 
@@ -60,8 +58,6 @@ jupyter notebook
 
 ![](https://i.imgur.com/YkBY9LK.png)
 
-## Session structure
+## References 
 
-1. Understanding the basics of DSP and signal processing in one 1d
-2. Sampling, streaming and logging data
-3. Handling data in 2-d
+Check each notebook in the `examples` folder for references and more information.
