@@ -12,10 +12,13 @@ Find it [here](presentations/MRAC_HARDWARE_II_2021_D2.pdf)
 
 - Good OpenCV material: https://www.learnopencv.com
 
-## Anaconda installation
+## Installing OpenCV on the Raspberry Pi
 
-Follow the instructions on Anaconda's website
-https://docs.anaconda.com/anaconda/install/linux/
+A [perfect guide](https://pimylifeup.com/raspberry-pi-opencv/) to help you set up OpenCV on your Raspberry Pi.
+
+## Installing Anaconda
+
+Follow the instructions on [Anaconda's website](https://docs.anaconda.com/anaconda/install/linux/)
 
 
 ###  Check if the installation was successful
@@ -52,3 +55,5 @@ We can't do that. We have to clone the env with a another name and delete the ol
 ### Open the notebook
 
 `jupyter notebook`
+
+## 
