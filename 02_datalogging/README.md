@@ -12,43 +12,43 @@ Find it [here](presentations/MRAC_HARDWARE_II_2021_D2.pdf)
 
 - Good OpenCV material: https://www.learnopencv.com
 
-### Anaconda installation
+## Anaconda installation
 
 Follow the instructions on Anaconda's website
 https://docs.anaconda.com/anaconda/install/linux/
 
 
-####  Check if the installation was successful
+###  Check if the installation was successful
 
 `conda -V`
 
-#### Update if necessary
+### Update if necessary
 
 `conda update conda`
 
-#### Create a new environment
+### Create a new environment
 
 `conda create -n envname python=3.8.5 anaconda`
 
 (where "envname" is the environment name, you can choose what you want)
 
-#### Activate the new environment
+### Activate the new environment
 `conda activate envname`
 
-#### Deactivate the current environment
+### Deactivate the current environment
 `conda deactivate`
 
-#### Rename an environment
+### Rename an environment
 
 We can't do that. We have to clone the env with a another name and delete the old one.
 
 `conda create --name new_name --clone old_name`
 `conda remove --name old_name --all`
 
-#### Install a package for the env
+### Install a package for the env
 
 `conda install -n envname package`
 
-#### Open the notebook
+### Open the notebook
 
 `jupyter notebook`
