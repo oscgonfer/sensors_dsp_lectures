@@ -11,6 +11,7 @@ Find it [here](presentations/MRAC_HARDWARE_II_2021_D2.pdf)
 ## Additional references
 
 - Good OpenCV material: https://www.learnopencv.com
+- Openframeworks tutorial (Lewis Lepton): https://www.youtube.com/channel/UC8Wzk_R1GoPkPqLo-obU_kQ
 
 ## Installing OpenCV on the Raspberry Pi
 
@@ -55,5 +56,3 @@ We can't do that. We have to clone the env with a another name and delete the ol
 ### Open the notebook
 
 `jupyter notebook`
-
-## 
