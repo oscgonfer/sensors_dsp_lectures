@@ -25,6 +25,6 @@ void loop()
   duration = pulseIn(echoPin, HIGH);
   cm = (duration / 2) / 29.1;
   Serial.print(cm);
-  Serial.print("cm");
+  Serial.println("cm");
   delay(250);
 }
