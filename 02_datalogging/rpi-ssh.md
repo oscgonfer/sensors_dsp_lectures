@@ -56,7 +56,7 @@ On Raspbian, default username is `pi` and password is `raspberry`. You may want 
 
 1. Open the terminal
 2. Locate the file you want to copy
-3. Locate where you want to put it in the raspberry pi, (/home/pi` is a good place)
+3. Locate where you want to put it in the raspberry pi, (`/home/pi` is a good place)
 4. Copy it, in this case, we are copying a file called, `test.py` from the Desktop on the origin laptop to the `/home/pi` folder in the raspberry pi: `scp /home/Desktop/test.py pi@[raspberrypi_ip_address]:/home/pi`
 
 ## Extra references
