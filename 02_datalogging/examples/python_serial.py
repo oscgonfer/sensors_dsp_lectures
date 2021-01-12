@@ -10,9 +10,7 @@ from sys import stdout
 # Numpy
 import numpy as np
 
-# I2C device definition
-PORT = '/dev/cu.usbmodem1411'
-BAUDRATE = 115200
+BAUDRATE = 9600
 
 def serial_ports():
     """Lists serial ports
@@ -51,15 +49,21 @@ def ReadSerial(serial):
 
 # Retrieve constants (ports, time, header)
 ports = serial_ports()
-ser = serial.Serial(ports[1], 9600)
+print (ports)
+ser = serial.Serial(ports[1], BAUDRATE)
 
+filename = 'log.csv'
 # Create header
-print ("TIME, SENSOR_READING")
+with open(filename, 'a') as file:
+    file.write(f"TIME,READING\n")
 
 # Create the reading
 while True:
     timestamp = datetime.datetime.now()
     reading = ReadSerial(ser)
+    print ("Reading sensor...")
     #  Print it and flush standard output
-    print (f"{timestamp},{reading}")
+    with open(filename, 'a') as file:
+        file.write(f"{timestamp},{reading}\n")
     sys.stdout.flush()
+
