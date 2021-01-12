@@ -47,12 +47,11 @@ def serial_ports():
 
 def ReadSerial(serial):
 
-    return serial.readline().replace("\r\n", "")
+    return serial.readline().decode().replace("\r\n", "")
 
 # Retrieve constants (ports, time, header)
 ports = serial_ports()
 ser = serial.Serial(ports[1], 9600)
-# print (ser)
 
 # Create header
 print ("TIME, SENSOR_READING")
@@ -61,7 +60,6 @@ print ("TIME, SENSOR_READING")
 while True:
     timestamp = datetime.datetime.now()
     reading = ReadSerial(ser)
-    #~ print reading
     #  Print it and flush standard output
-    print "{},{}".format(timestamp,reading)
+    print (f"{timestamp},{reading}")
     sys.stdout.flush()
