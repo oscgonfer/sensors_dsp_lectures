@@ -9,6 +9,7 @@ if (cap.isOpened() == False):
 
 while(cap.isOpened()):
     ret, frame = cap.read()
+
     if ret==True:
         frame = cv2.flip(frame,0)
         
