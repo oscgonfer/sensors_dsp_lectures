@@ -1,6 +1,8 @@
-# MRAC Hardware II Seminar - SENSORS & DATA ANALYSIS
+# Sensors and Data Analysis
 
-Welcome! This is the code repository and presentation material for the [Hardware II Seminar on Sensors and Data Analysis](http://www.iaacblog.com/programs/courses/mrac/2021-2022-mrac/) at [IAAC MRAC Program](https://iaac.net/educational-programmes/masters-programmes/master-in-robotics-and-advanced-construction-mrac/). This course is a global introduction to sensors, digital signal processing and data analysis.
+Welcome! This course is a global introduction to sensors, digital signal processing and data analysis. The course has been taught in:
+
+- [Hardware II Seminar on Sensors and Data Analysis 2021](http://www.iaacblog.com/programs/courses/mrac/2020-2021-mrac/) and [2022](http://www.iaacblog.com/programs/courses/mrac/2021-2022-mrac/) at [IAAC MRAC Program](https://iaac.net/educational-programmes/masters-programmes/master-in-robotics-and-advanced-construction-mrac/)
 
 The course is structured in four days, each of which have 3h of theory and practice. Each day introduces to various topics:
 
