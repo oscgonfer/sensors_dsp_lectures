@@ -11,6 +11,7 @@ Heavily inspired by: https://fablabbcn-projects.gitlab.io/learning/fabacademy-lo
 - [Analog read with a voltage divider](examples/analog_read.ino)
 - [Analog read](examples/thermistor.cpp)
 - [Pulse In with ultrasonic sensor](examples/ultrasonic_sensor.cpp)
+- [Adafruit SHT31](https://github.com/adafruit/Adafruit_SHT31/blob/master/examples/SHT31test/SHT31test.ino)
 
 ## Additional references
 
