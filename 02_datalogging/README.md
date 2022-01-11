@@ -15,7 +15,7 @@ Find it [here](presentations/MRAC_HARDWARE_II_2022_D2.pdf)
 - Good OpenCV material: https://www.learnopencv.com
 - Openframeworks tutorial (Lewis Lepton): https://www.youtube.com/channel/UC8Wzk_R1GoPkPqLo-obU_kQ
 - [Installing anaconda](python-anaconda-installation.md)
-- [Getting started with rpi:](rpi-ssh.md)
+- [Getting started with rpi](rpi-ssh.md)
 
 ## Installing OpenCV on the Raspberry Pi
 
