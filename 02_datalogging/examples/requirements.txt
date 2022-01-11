@@ -1,3 +1,4 @@
+# Adafruit_GPIO # only for Rpi
 zmq
 opencv-python
 Pillow
