@@ -1,7 +1,11 @@
-import zmq
+# Import packages
+# - Python Native
 import time
-import numpy as np
 import argparse
+# - Numpy
+import numpy as np
+# - PyZMQ
+import zmq
 
 
 def receive(port = '5555'):
@@ -20,11 +24,11 @@ def receive(port = '5555'):
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument('-p', '--port',
-                        help='Port for stream', default = '5555', 
+                        help='Port for stream', default = '5555',
                         required=False)
 
     args = parser.parse_args()
     receive(args.port)
 
 if __name__ == '__main__':
-    main()	
+    main()

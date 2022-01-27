@@ -1,7 +1,11 @@
-from Adafruit_SHT31 import *
-import zmq
+# Import packages
+# - Python Native
 import time
 import argparse
+# - local Adafruit library
+from Adafruit_SHT31 import *
+# - PyZMQ
+import zmq
 
 # Define SHT31 Address
 sensor = SHT31(address = 0x44)
@@ -29,10 +33,10 @@ if __name__ == "__main__":
     print ('hello')
     parser = argparse.ArgumentParser()
     parser.add_argument('-p', '--port',
-                        help='Port for stream', default = '5555', 
+                        help='Port for stream', default = '5555',
                         required=False)
     parser.add_argument('-s', '--server',
-                        help='IP of Server for stream', default = 'localhost', 
+                        help='IP of Server for stream', default = 'localhost',
                         required=False)
 
     args = parser.parse_args()

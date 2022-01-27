@@ -1,5 +1,8 @@
-from Adafruit_SHT31 import *
+# Import packages
+# - Python Native
 import time
+# - local Adafruit library
+from Adafruit_SHT31 import *
 
 # Define SHT31 Address
 sensor = SHT31(address = 0x44)

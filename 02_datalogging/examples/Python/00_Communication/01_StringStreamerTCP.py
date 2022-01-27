@@ -1,9 +1,12 @@
-import zmq
+# Import packages
+# - Python Native
 import time
 import argparse
+# - PyZMQ
+import zmq
 
 def stream(server_address, port):
-    
+
     print("Connecting to ", server_address, "at", port)
     context = zmq.Context()
     footage_socket = context.socket(zmq.PUB)
@@ -20,11 +23,11 @@ def stream(server_address, port):
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument('-p', '--port',
-                        help='Port for stream', default = '5555', 
+                        help='Port for stream', default = '5555',
                         required=False)
     parser.add_argument('-s', '--server',
-                        help='IP of Server for stream', default = 'localhost', 
+                        help='IP of Server for stream', default = 'localhost',
                         required=False)
 
     args = parser.parse_args()
-    stream(args.server, args.port)  
+    stream(args.server, args.port)

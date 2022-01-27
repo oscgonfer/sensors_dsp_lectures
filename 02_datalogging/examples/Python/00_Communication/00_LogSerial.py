@@ -1,13 +1,14 @@
 #!/usr/bin/python
 
 # Import packages
-import serial
+# - Python Native
 import datetime
 import glob
 import sys
 from sys import stdout
-
-# Numpy
+# - PySerial
+import serial
+# - Numpy
 import numpy as np
 
 BAUDRATE = 9600
@@ -66,4 +67,3 @@ while True:
     with open(filename, 'a') as file:
         file.write(f"{timestamp},{reading}\n")
     sys.stdout.flush()
-

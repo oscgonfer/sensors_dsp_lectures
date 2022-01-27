@@ -1,0 +1,4 @@
+Adafruit_GPIO
+numpy
+zmq
+paho-mqtt
