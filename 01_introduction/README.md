@@ -45,4 +45,5 @@ Heavily inspired by: https://fablabbcn-projects.gitlab.io/learning/fabacademy-lo
 
 ## Additional references
 
-Find an ever-growing sensor list [here](https://hackmd.io/xAjS5n_ASTOmX9EhacRRhw?view) (again by @vicobarberan)
+- [Add other boards to ArduinoIDE](extras/ArduinoIDE_README.md)
+- Find an ever-growing sensor list [here](https://hackmd.io/xAjS5n_ASTOmX9EhacRRhw?view) (again by @vicobarberan)

@@ -15,7 +15,7 @@ Find it [here](presentations/MRAC_HARDWARE_II_2022_D2.pdf)
     - Raspberry Pi
         - [Read a Digital Sensor](examples/Python/01_RaspberryPi/00_digital_sensor.py)
         - [Stream a Digital Sensor over TCP](examples/Python/01_RaspberryPi/01_digital_sensor_streamTCP.py)
-        - [Stream a Digital Sensor over TCP](examples/Python/01_RaspberryPi/02_digital_sensor_streamMQTT.py)
+        - [Stream a Digital Sensor over MQTT](examples/Python/01_RaspberryPi/02_digital_sensor_streamMQTT.py)
     - OpenCV
         - [Camera Capture](examples/Python/02_OpenCV/00_video.py)
         - [Camera Capture and Storage](examples/Python/02_OpenCV/01_video_capture.py)
