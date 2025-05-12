@@ -1,6 +1,6 @@
 ## Presentation
 
-Find it [here](presentations/MRAC_HARDWARE_II_2022_D2.pdf)
+Find it [here](https://github.com/oscgonfer/sensors_dsp_lectures/blob/current/02_datalogging/presentations/MRAC_HARDWARE_II_2022_D2.pdf)
 
 ## Examples list
 
